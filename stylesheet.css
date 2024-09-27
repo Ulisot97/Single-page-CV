@@ -1,0 +1,84 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{
+    border: 5px solid black;
+    height: 100%;
+    box-sizing: content-box;
+    margin: 5px;
+    max-width: 900px;
+}
+
+div{
+    margin: 20px 0 5px 20px;
+}
+
+#skills{
+    & h3, p{
+        margin: 8px 0 0 0;
+    }
+}
+
+#adress {
+    & ul{
+        list-style-type: none;
+    }
+    & li{
+        margin-block: 3px;
+    }
+}
+
+#education, #experience{
+    & h2{
+        color: #55f;
+    }
+    & ul{
+        list-style-type: none;
+        & li{
+            margin: 10px 0 0 0;
+        }
+    }
+}
+
+#education{
+    & ul{
+        list-style-type: none;
+    }
+}
+
+#experience{
+    & ul{ 
+        & ol{
+            list-style-type: disc;
+            margin: 0 0 0 20px;
+        }
+    }
+}
+
+#topbox{
+    display: block;
+    margin: 50px 20px 0 20px;
+    border-bottom: 5px solid #000;
+}
+
+#position{
+    color: #0f3;
+}
+
+#acrossinternet{
+    & ul{
+        list-style-type: none;
+        & li{
+            margin-block: 8px;
+        }
+    }
+}
